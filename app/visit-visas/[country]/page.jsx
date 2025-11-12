@@ -7,7 +7,7 @@ const metaData = {
     
     keywords:" USA visit visa, Visit visa, B1/B2 visa application, Tourist visa USA, Business visit USA, Apply USA visitor visa, DS-160 visa form USA, Proof of funds USA visa, Passport validity USA travel visa, Interview US embassy, USA visa processing time, Stay duration USA visitor visa, Intent to return visa USA, Travel insurance USA visa, USA visa documents checklist, USA visitor visa requirements, VJC Overseas, Best Visa Immigration Consultants",
   },
-  usab1b2: {
+  "usab1/b2": {
     title: "USA Visit Visa B1 B2 Tourist and Business Visa Application Process and Requirements",
     
     keywords: " USA visit visa, B1/B2 visa application, Tourist visa USA, Business visit USA, Apply USA visitor visa, DS-160 visa form USA, Proof of funds USA visa, Passport validity USA travel visa, Interview US embassy, USA visa processing time, USA visitor visa Stay duration, Travel insurance USA visa, USA visa documents checklist, USA visitor visa requirements, VJC Overseas, Best Visa Immigration Consultants",

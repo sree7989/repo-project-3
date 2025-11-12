@@ -8,17 +8,35 @@ import Two from "./Two";
 import { notFound } from "next/navigation";
 
 const metaData = {
-   
-    usa: { },
-    "usab1/b2":{ },
-    canada: { },
-    australia: { },
-    uk:{ },
-    dubai: { },
-    denmark:{ },
     austria:{ },
+    belgium:{ },
+    bulgaria:{ },
+    croatia:{ },
+    "czech-republic":{ },
+    denmark:{ },
+    estonia:{ },
+    finland:{ },
+    france:{ },
+    germany:{ },
+    greece:{ },
+    hungary:{ },
+    iceland:{ },
     italy:{ },
-    schengen:{ },
+    latvia:{ },
+    liechtenstein:{ },
+    lithuania:{ },
+    luxembourg:{ },
+    malta:{ },
+    netherlands:{ },
+    norway:{ },
+    poland:{ },
+    portugal:{ },
+    romania:{ },
+    slovakia:{ },
+    slovenia:{ },
+    spain:{ },
+    sweden:{ },
+    switzerland:{ },
 };
 
 export default function CountryClient({ country }) {
@@ -37,7 +55,7 @@ export default function CountryClient({ country }) {
 
   return (
     <>
-      <div style={{ marginTop: "2%", zIndex: 20, position: "relative" }}>
+      <div style={{ marginTop: "0%", zIndex: 20, position: "relative" }}>
         
       </div>
 
