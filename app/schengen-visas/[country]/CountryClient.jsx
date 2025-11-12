@@ -55,7 +55,7 @@ export default function CountryClient({ country }) {
 
   return (
     <>
-      <div style={{ marginTop: "0%", zIndex: 20, position: "relative" }}>
+      <div style={{ marginTop: "2%", zIndex: 20, position: "relative" }}>
         
       </div>
 
