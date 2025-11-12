@@ -50,9 +50,10 @@ export async function generateMetadata({ params }) {
   const data = metaData[country];
  
   return {
-    title: data?.title || "Resume Marketing – Boost Your Career Opportunities | VJC Career Services",
-description: data?.description || "Get expert guidance to market your resume effectively with VJC Career Services. Improve your visibility, attract top employers, and land your dream job with a professionally crafted resume.",
-keywords: data?.keywords || "resume marketing, professional resume services, CV writing, LinkedIn optimization, career growth, job application assistance, resume tips, professional branding, interview preparation, career consultancy, job search services"
+    title: data?.title || "Investor Visa – Invest and Settle Abroad | VJC Immigration Services",
+description: data?.description || "Secure your future with the Investor Visa program through VJC Immigration Services. Get expert assistance to invest, migrate, and establish your business overseas with professional visa guidance.",
+keywords: data?.keywords || "investor visa, business visa, investment immigration, residency by investment, golden visa, entrepreneur visa, business migration, international investment, permanent residency, global business opportunities, VJC Immigration Services"
+
 
   };
 }
