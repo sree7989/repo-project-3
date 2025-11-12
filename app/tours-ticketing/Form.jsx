@@ -99,10 +99,12 @@ const Form = () => {
 
 
   return (
-    <div
-      className="bg-gradient-to-b from-orange-500/80 to-blue-400/80 p-6 py-4 shadow-2xl max-w-md mx-auto w-full mb-6 rounded-lg shadow-gray-500"
-      style={{ fontFamily: 'Times New Roman, serif' }}
-    >
+   <div
+  className="bg-gradient-to-b from-orange-500/80 to-blue-400/80 p-6 py-4 shadow-2xl max-w-md mx-auto w-full rounded-lg shadow-gray-500"
+  style={{ fontFamily: 'Times New Roman, serif', marginTop: '-70px' }}
+>
+
+
       <h2 className="text-2xl font-semibold text-center text-white mt-0">
         Sign up <span style={{ color: 'rgb(220, 4, 4)' }}> &</span> Get Free Assessment
       </h2>
