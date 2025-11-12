@@ -155,9 +155,10 @@ export async function generateMetadata({ params }) {
   const data = metaData[country];
  
   return {
-    title: data?.title || "Tours & Ticketing – Explore the World with Ease | VJC Travel Services",
-description: data?.description || "Discover seamless tours and ticketing solutions with VJC Travel Services. From flight bookings to customized holiday packages, we make your travel planning effortless and affordable.",
-keywords: data?.keywords || "tours and ticketing, travel booking, flight tickets, holiday packages, hotel reservations, travel agency, vacation planning, affordable tours, travel consultancy, group tours, international trips"
+    title: data?.title || "Schengen Visa – Travel Across Europe with Ease | VJC Travel Services",
+description: data?.description || "Apply for your Schengen Visa effortlessly with VJC Travel Services. We assist with documentation, appointment booking, and guidance for smooth travel across 27 European countries.",
+keywords: data?.keywords || "Schengen visa, Europe visa, tourist visa, business visa, visa consultancy, Schengen visa assistance, travel to Europe, visa application, visa services, VJC Travel Services"
+
   };
 }
 
