@@ -2,74 +2,44 @@ import CountryClient from "./CountryClient";
  
 // Metadata map
 const metaData = {
-  canada: {
-    title: "Canada Resume Marketing Services ATS-Optimized Resumes for Canadian Job Market",
+  usa: {
+    title: "USA Investor Visa EB5 Green Card by Investment Residency through EB5 Visa Program",
     
-    keywords:" Canada resume marketing, Canadian job market, ATS-compliant resumes, resume optimization, Canadian immigration, IT resume services, LinkedIn profile optimization, Canadian employers, job application support, professional resume writing, Canada work permit, Canada PR visa, Canada Express Entry, Canadian job seekers, resume distribution, job search assistance, resume branding, career advancement, Best Visa Immigration Consultants, VJC Overseas",
+    keywords:" USA investor visa, EB5 USA visa, US Green Card by investment, EB5 investment program, USA residency by investment, EB5 visa minimum investment, EB5 visa requirements USA, lawful source of funds EB5, EB5 regional center USA, USA investor green card, permanent residency EB5 USA, EB5 visa process steps, USA immigration by investment, conditional green card EB5, EB5 job creation requirement, USA investor visa consultants, EB5 documents checklist USA, EB5 processing time, VJC Overseas, Best Visa Immigration Consultants",
+  },
+  canada: {
+    title: "Canada Investor Visa Start-Up Business and Entrepreneur Visa Routes for Permanent Residency",
+    
+    keywords: " Canada Investor visa, Start-Up Visa Canada, Entrepreneur visa Canada, Business investment visa Canada, Investor PR program Canada, Canada residency by investment, Provincial nominee investor streams, Quebec Investor visa, Canadian Investor visa requirements, proof of funds Canada Investment, Startup business support Canada, Investor visa for dependents Canada, Business plan requirement Canada, Canada investor visa documents, Investor visa processing time Canada, Canada PR investor route, Canada immigration by investment, VJC Overseas, Best Visa Immigration Consultants",
   },
   germany: {
-    title: "Germany Resume Marketing Services for Jobs IT Careers and Work Visa Opportunities",
+    title: "Germany Investor Visa Residency by Investment Business Startup and Company Formation",
     
-    keywords: " Germany resume marketing, German job market, IT resume Germany, professional resumes Germany, Germany LinkedIn optimization, job application support Germany, ATS resume Germany, career growth Germany, German employers, Germany work permit, Germany Blue Card, Germany PR visa, Germany resume distribution, Germany job search, Germany executive resume, Germany skill-based resumes, Germany resume branding, Germany application assistance, Best Visa Immigration Consultants, VJC Overseas",
-  },
-  usa: {
-    title: " USA Resume Marketing Services ATS Optimized Resumes for US Job Market",
-    
-    keywords: "USA resume marketing, Resume marketing Services, US job market, ATS compliant resumes, resume optimization, USA IT resume services, USA LinkedIn optimization, USA professional resume writing, USA job application support, USA career growth, US employers, USA work permit, H1B visa USA, USA PR visa, USA resume distribution, USA job search, USA executive resume, USA skill based resumes, USA resume branding, Best Visa Immigration Consultants, VJC Overseas",
+    keywords: "Germany investor visa, Germany Residency by investment, Germany Business startup visa, Germany Investor residency permit, Germany investor visa job creation , Proof of funds Germany residence visa, Legal business plan Germany investor, German Investor visa EUR 250000, Germany investment program, Documents required Investor visa Germany, Germany Investor visa eligibility, Germany Investor visa family, Germany Immigration by investment, Germany visa consultants, VJC Overseas, Best Visa Immigration Consultants",
   },
   australia: {
-    title: "Australia Resume Marketing Services ATS Optimized Resumes for Australian Job Market",
+    title: "Australia Investor and Entrepreneur Visa Invest Business Permanent Residency",
     
-    keywords: "Australia resume services, Australia resume marketing, ATS resumes Australia, Australia IT resume writing, Australia LinkedIn profile, Australia professional CV, Australia job application support, Australia career services, Australian job opportunities, Australia work visa, Australia PR visa, Australia skilled migration, Australia resume distribution, Australia job search, Australia executive CV, Australia skill based resume, Australia resume branding, Australia career growth, Best Visa Immigration Consultants, VJC Overseas",
+    keywords: "Australia Investor visa, Business Investment visa Australia, Investor visa, Australia residency by investment, Entrepreneur visa Australia, Subclass 188 Australia, Subclass 888 Australia, AUD 1.5 million investor stream, AUD 5 million investor stream, Investment visa documents Australia, Prove funds Australia investor, Business plan Australia visa, Investor visa eligibility Australia, Australia Investor visa requirements, Australia Investor processing time, Australia Immigration by Investment, VJC Overseas, Best Visa Immigration Consultants",
   },
   uk: {
-    title: "UK Resume Marketing Services Professional Resume Writing and Job Application Support",
-    keywords:"UK resume services, UK resume marketing, ATS UK resumes, UK IT resume writing, UK LinkedIn optimization, UK professional CV, UK job application, UK career services, UK job opportunities, UK work visa, UK PR visa, UK skilled migration, UK resume distribution, UK job search, UK executive CV, UK skill based resumes, UK resume branding, UK career growth, Best Visa Immigration Consultants, VJC Overseas",
+    title: "UK Investor Visa Tier 1 Route High Value £2 Million Investment to Secure Residency",
+    keywords:"UK Investor visa, Tier 1 Investor UK, £2 million Investment visa UK, Permanent Residency UK Investment, UK ILR for investors, UK settlement through Investment, Funds proof UK investor visa, Investment UK visa, UK visa documents Investor, Existing Tier 1 investor extension, UK Investor visa benefits, Business investment UK, Immigration by investment UK, UK residence permit by Investor, UK Investor visa eligibility, VJC Overseas, Best Visa Immigration Consultants",
     
   },
-  denmark: {
-    title: "Denmark Resume Marketing Services ATS Optimized Resumes for Danish Job Market ",
-    keywords:"Denmark resume marketing, Danish job market, ATS compliant resumes, Resume optimization, Denmark immigration, IT resume services Denmark, LinkedIn profile optimization, Danish employers, Job application support, Professional resume writing, Denmark work permit, Denmark PR visa, Denmark job seekers, Resume distribution, Job search assistance, Resume branding, Career advancement, Executive resume services, Best Visa Immigration Consultants, VJC Overseas",
+  uae: {
+    title: "UAE Investor Visa Golden Residency by AED 2 Million Real Estate or Business Investment Route",
+    keywords:"UAE Investor visa, Golden Visa UAE Investment, AED 2 million Investment UAE, real estate Investor visa UAE, business Investor UAE Golden Visa, UAE Residency by Investment, Investor visa family sponsorship UAE, Investor visa without sponsor UAE, Golden Visa requirements UAE, UAE Investor visa process, Proof of funds Golden Visa, UAE Investor visa documents checklist, UAE Golden Investor visa eligibility, UAE Investor visa benefits, UAE Investor visa cost, Dubai Investor visa, real estate Golden Visa UAE, VJC Overseas, Best Visa Immigration Consultants",
   },
-  ireland: {
-    title: "Ireland Resume Marketing Services Professional CV Writing and Job Application Support",
+  portugal: {
+    title: "Portugal Investor Visa Golden Visa Business and Fund Investment for Residency Permit",
    
-    keywords: "Ireland resume marketing, Ireland resume services, ATS resumes Ireland, Ireland resume writing, Ireland LinkedIn optimization, Ireland job application support, Irish employers, Ireland career services, Ireland work visa, Ireland PR visa, Ireland skilled migration, Ireland resume distribution, Irish job opportunities, Ireland executive resume, Ireland skill based resumes, Ireland resume branding, Ireland career growth, Ireland professional CV, Best Visa Immigration Consultants, VJC Overseas",
-  },
-  dubai: {
-    title: "Dubai Resume Marketing Services Professional CV Writing for UAE Job Market",
-    
-    keywords: "Dubai resume marketing, Dubai resume services, ATS Dubai resumes, Dubai resume writing, Dubai LinkedIn optimization, Dubai Job application, Dubai professional CV, Dubai career services, Dubai job opportunities, Dubai work visa, UAE resume marketing, Dubai skilled migration, Dubai resume distribution, Dubai job search, Dubai executive resume, Dubai skill based resumes, Dubai resume branding, Dubai career growth, Best Visa Immigration Consultants, VJC Overseas",
+    keywords: "Portugal Investor visa, Portugal Golden Visa, Portugal Investment visa, Portugal Residency by investment, Portugal Business Investment visa, Portugal Investor fund, Portugal visa, Portugal Heritage donation visa, Job creation Investment visa, Portugal Investor eligibility, 5 years Portugal, visa documents Portugal investor, Investor visa family Portugal, Portugal Investor visa process, Investor visa cost Portugal, Portugal Investor residency permit, VJC Overseas, Best Visa Immigration Consultants",
   },
   austria: {
-    title: "Austria Resume Marketing Services Professional CV Writing for Career Growth",
+    title: "Austria Business Investor Visa Residency Route with Investment Accommodation Health Insurance and German A1",
     
-    keywords: "SAustria resume marketing, Austria resume services, ATS Austria resumes, Austria resume writing, Austria LinkedIn optimization, Austria job application, Austria career services, Austrian job market, Austria work visa, Austria skilled migration, Austria resume distribution, Austria executive CV, Austria skill based resumes, Austria resume branding, Austria job search, Austrian employers, Austria professional CV, Austria career growth, Best Visa Immigration Consultants, VJC Overseas",
-  },
-  singapore: {
-    title: "Singapore Resume Marketing Services Professional CV Writing and Job Market Advantage",
-    
-    keywords: "Singapore resume marketing, Singapore resume services, ATS resumes Singapore, Singapore resume writing, Singapore LinkedIn optimization, Singapore career services, Singapore job opportunities, Singapore work visa, Singapore skilled migration, Singapore resume distribution, Singapore executive resume, Singapore skill based resumes, Singapore resume branding, Singapore employers, Singapore job search, Singapore professional CV, Singapore career growth, Singapore professional resume, Best Visa Immigration Consultants, VJC Overseas",
-  },
-  newzealand: {
-    title: "New Zealand Resume Marketing Services Professional CV Writing for Job and Visa Growth",
-    
-    keywords: "New Zealand resume marketing, New Zealand resume services, ATS New Zealand resumes, New Zealand resume writing, New Zealand LinkedIn optimization, New Zealand job opportunities, New Zealand career services, New Zealand work visa, New Zealand skilled migration, New Zealand resume distribution, New Zealand executive CV, New Zealand skill based resumes, New Zealand resume branding, New Zealand employers, New Zealand professional CV, New Zealand career growth, NZ work visa jobs, NZ job market, Best Visa Immigration Consultants, VJC Overseas",
-  },
-  malaysia: {
-    title: "Malaysia Resume Marketing Services Professional CV Writing for Career Success",
-    
-    keywords: "Malaysia resume marketing, Malaysia resume services, ATS Malaysia resumes, Malaysia resume writing, Malaysia LinkedIn profile, Malaysia job search, Malaysia career services, Malaysia work visa, Malaysia skilled migration, Malaysia resume distribution, Malaysian job opportunities, Malaysia executive resume, Malaysia skill based resumes, Malaysia resume branding, Malaysian employers, Malaysia professional CV, Malaysia career growth, Malaysia employment opportunities, Best Visa Immigration Consultants, VJC Overseas",
-  },
-  poland: {
-    title: "Poland Resume Marketing Services Professional CV Writing for Career Opportunities",
-    
-    keywords: "Poland resume marketing, Poland CV services, ATS Poland resumes, Poland professional resume writing, Poland LinkedIn profile, Poland job search, Poland career services, Poland work visa, Poland skilled migration, Poland resume distribution, Poland job opportunities, Polish employers, Poland executive CV, Poland skill based resumes, Poland resume branding, Polandcareer growth, employment in Poland, Poland professional CV, Best Visa Immigration Consultants, VJC Overseas",
-  },
-  malta: {
-    title: "Malta Resume Marketing Services Professional CV Writing and Career Opportunities",
-    
-    keywords: "Malta resume marketing, Malta resume services, ATS Malta resumes, Malta resume writing, Malta LinkedIn optimization, Malta job opportunities, Malta career services, Malta work visa, Malta skilled migration, Malta resume distribution, Malta executive CV, Malta skill based resumes, Malta resume branding, Malta employers, Malta job search, Malta professional CV, Malta career growth, Malta employment, Malta international resume, Best Visa Immigration Consultants, VJC Overseas",
+    keywords: "Austria Investor visa, Austria residence by investment, Austria golden visa, Investor visa €50 000 Austria, German language A1 Austria visa, Austria private residence program, Austria visa accommodation requirement, Austria visa health insurance, Austria Business investment visa, Austria residence permit for Investors, apply Austria Investor visa, Austria visa Documents, Austria Investor eligibility, Austrian residence Investment, Austria visa process, Austria Immigration by Investment, VJC Overseas, Best Visa Immigration Consultants",
   },
   
 };

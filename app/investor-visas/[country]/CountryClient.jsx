@@ -10,15 +10,13 @@ import { notFound } from "next/navigation";
 const metaData = {
    
     usa: { },
-    usab1b2:{ },
     canada: { },
+    germany:{ },
     australia: { },
     uk:{ },
-    dubai: { },
-    denmark:{ },
+    uae:{ },
+    portugal:{ },
     austria:{ },
-    italy:{ },
-    schengen:{ },
 };
 
 export default function CountryClient({ country }) {
