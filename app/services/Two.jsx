@@ -2,6 +2,9 @@
 
 import Link from "next/link";
 import Form from "./Form";
+import Content from "./Content";
+import FadeIn from "./FadeIn";
+import Hero from "./Hero";
 import {
   FaGlobeAmericas,
   FaUserGraduate,
@@ -53,7 +56,9 @@ export default function ServicesCTA() {
   ];
 
   return (
-    <section className="bg-white py-6 sm:py-10 px-6 sm:px-12 -mt-8">
+    <section className="bg-white py-6 sm:py-10 px-6 sm:px-12 ">
+      <Content />
+
       <div className="max-w-6xl mx-auto space-y-6 mb-10">
         {/* Top SEO paragraphs */}
         <motion.p
@@ -141,7 +146,8 @@ export default function ServicesCTA() {
         </div>
       </div>
 
-     
+      <FadeIn />
+      <Hero />
 
       {/* Bottom SEO paragraphs */}
       <div className="max-w-6xl mx-auto space-y-6 mt-10">
@@ -196,11 +202,12 @@ export default function ServicesCTA() {
           filing for a smooth education abroad experience.
         </motion.p>
       </div>
-       {/* CTA Section */}
+
+      {/* CTA Section */}
       <div className="relative mt-16 rounded-lg overflow-hidden">
         {/* Background and overlay */}
         <div className="absolute inset-0 bg-[url('/studyinuk/c1.png')] bg-cover bg-center">
-          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <div className="absolute inset-0 bg-black opacity-20"></div>
         </div>
 
         {/* Animated Text Content */}
