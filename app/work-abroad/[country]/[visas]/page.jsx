@@ -1,47 +1,30 @@
-"use client";
-
-
-
-import Nav from "./Nav";
-
+import { visaMetaData } from "../../visaMetaData";
 import Two from "./Two";
 
 
-const textContainerVariants = {
-  hidden: { opacity: 0, y: 50 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.3,
-      duration: 0.8,
-      ease: "easeOut",
-    },
-  },
-};
+export async function generateMetadata({ params }) {
+  const country = params?.country?.toLowerCase();
+  const visas = params?.visas?.toLowerCase();
 
+  const visaData = visaMetaData[country]?.[visas];
 
+  return {
+    title: visaData?.title || "Explore Visa Options | VJC Overseas",
+    description: visaData?.description || "Start your immigration journey with VJC Overseas.",
+    keywords: visaData?.keywords || "visa, immigration, study abroad, work visa, VJC Overseas",
+  };
+}
 
-
-const ContactPage = () => {
-  
-
-  
-
+const VisaPage = () => {
   return (
     <>
-      {/* Navbar */}
       <div style={{ marginTop: "5%", zIndex: 20, position: "relative" }}>
-        <Nav />
+        {/* Optional Nav */}
       </div>
-
-      {/* Main Section */}
-     
-
-      {/* Other Sections */}
       <Two />
+
     </>
   );
 };
 
-export default ContactPage;
+export default VisaPage;
