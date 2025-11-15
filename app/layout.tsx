@@ -12,9 +12,9 @@ const ptSerif = PT_Serif({ subsets: ['latin'], weight: ['400', '700'], variable:
 const playfairDisplay = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair-display', display: 'swap' });
 
 export const metadata: Metadata = {
-  title: 'Best Visa Immigration Consultants in Hyderabad Bangalore PR Visa | Study Visa | Job Seeker Visa | Visit Visa | Investor Visa | Tourist Visa | Dependent Visa | Work Permit Visa',
+  title: 'Best Visa Immigration Consultants in Hyderabad Bangalore | Study Work PR Tourist JobSeeker Investor Work Permit and Dependent Visas',
   description: 'Best Visa Immigration Consultants in Hyderabad and Bangalore Process for PR Visa, Study Visa, Job Seeker Visa, Visit Visa, Investor Visa, Tourist Visa, Dependent Visa, Work Permit Visa and much more...',
-  keywords: 'Best Visa Immigration Consultants in Hyderabad, Best Immigration Visa Consultants in Bangalore, PR Visa, Germany Opportunity Card, Study Visa, Job Seeker Visa, Work Permit Visa',
+  keywords: 'Study Abroad, Immigration Consultancy, Work Visa, Job Seeker Visa, PR Visa, Tourist Visa, Investor Visa, Dependent Visa, Passport Services, Air Ticketing, Forex Services, Free Assessment, Travel Assistance, Visa Guidance, Visa Application Help, Immigration Support, Document Verification, Visa Consultancy, Best Visa Immigration Consultants VJC Overseas, Overseas Education Consultants, Global Immigration Services, Visa Processing, Visa Eligibility Check, Travel Document Assistance, International Student Visa, Skilled Migration Services, Visa Filing Assistance, Immigration Experts, Relocation Services, Study Visa Consultants, Work Permit Assistance, International Job Visa',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
