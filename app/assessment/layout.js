@@ -1,9 +1,9 @@
 import Script from 'next/script';
 
 export const metadata = {
- title: "Free Immigration Assessment | VJC Overseas Visa Experts",
+ title: "Free Visa and Study Abroad Assessment Check Your Eligibility Online for Immigration Services",
   description: "Get expert visa & immigration help with VJC Overseas. Take our free assessment to explore top opportunities and start your global journey today.",
-  keywords:"work permit, canada immigration, new zealand, singapore visa, permanent residency, visa for united states, permanent residency usa, canada visa, visa uk visa, usa visa application, visa appointment us, visa schengen visa, usa visa, visa application for us visa, visit visa uae dubai"
+  keywords:"Free Assessment, visa Eligibility Check, Immigration Consultation, Study Abroad Assessment, Personalized visa Guidance, Free Counseling, Immigration Advice, Study visa Evaluation, Work visa Assessment, Permanent Residency Check, Free Eligibility Evaluation, visa Application support, Overseas Education Guidance, Job Seeker visa Assessment, Family Sponsorship Evaluation, Document Review, visa Interview Preparation, Overseas Career Counseling, VJC Overseas, Best Visa Immigration Consultants"
 };
 
 export default function ContactLayout({ children }) {

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Form from "./Form";
 import Usab1 from "./Usab1";
-  import Link from "next/link";
+import Link from "next/link";
 import Canadavisit from "./Canadavisit";
 import Usab2 from "./Usab2";
 import Usab1b2 from "./Usab1b2";
@@ -19,9 +19,7 @@ import Austria from "./Austria";
 import Itlay from "./Itlay";
 import Schengen from "./Schengen";
 const visaData = [
-
   { name: "USA Visit Visa", path: "/visit-visas/usa", image: "/usaplanevisit.jpg" },
- 
   { name: "USA B1/B2 Visa", path: "/visit-visas/usa-b1-b2-visa", image: "/visit1.webp" },
   { name: "Canada Visit Visa", path: "/visit-visas/canada" , image: "/canada.webp"},
   { name: "Australia Visit Visa", path: "/visit-visas/australia" , image: "/australia-visitor-visa.webp"},
