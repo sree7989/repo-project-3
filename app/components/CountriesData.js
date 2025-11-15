@@ -6,50 +6,52 @@ export const countries = [
   image: "/c3.jpg",
   description: (
     <div className="text-gray-800 text-sm md:text-base leading-relaxed break-words max-w-full space-y-2">
-      <p>
-        <span className="font-semibold">Canada</span> is a top destination for international students, offering world-class education, post-study work options, and a diverse culture. A <span className="font-semibold">Study Permit</span> is required to study in Canada.
-      </p>
+     <p>
+  <span className="font-semibold">Canada</span> is a top destination for international students, offering world-class education, post-study work options, and a diverse culture. A <span className="font-semibold">Study Permit</span> is required to study in Canada. For expert guidance, visit{" "}
+  <a href="https://www.vjcoverseas.com" className="text-orange-500 font-semibold">VJC Overseas</a>.
+</p>
 
-      <h3 className="text-base md:text-lg font-bold text-red-600 mt-2">Canada Study Visa Process</h3>
+<h3 className="text-base md:text-lg font-bold text-red-600 mt-2">Canada Study Visa Process</h3>
 
-      <div>
-        <h4 className="font-semibold text-orange-600">1. Apply to a DLI</h4>
-        <p>Choose a recognized college or university and get a Letter of Acceptance (LOA).</p>
-      </div>
+<div>
+  <h4 className="font-semibold text-orange-600">1. Apply to a DLI</h4>
+  <p>Choose a recognized college or university and get a Letter of Acceptance (LOA).</p>
+</div>
 
-      <div>
-        <h4 className="font-semibold text-orange-600">2. Gather Documents</h4>
-        <ul className="list-disc pl-5">
-          <li>LOA</li>
-          <li>Valid passport & photographs</li>
-          <li>Proof of funds (CAD 20,635/year)</li>
-          <li>SOP</li>
-          <li>IELTS/TOEFL scores</li>
-        </ul>
-      </div>
+<div>
+  <h4 className="font-semibold text-orange-600">2. Gather Documents</h4>
+  <ul className="list-disc pl-5">
+    <li>LOA</li>
+    <li>Valid passport & photographs</li>
+    <li>Proof of funds (CAD 20,635/year)</li>
+    <li>SOP</li>
+    <li>IELTS/TOEFL scores</li>
+  </ul>
+</div>
 
-      <div>
-        <h4 className="font-semibold text-orange-600">3. Apply Online or via VAC</h4>
-        <p>
-          Submit via IRCC or VAC. <br />
-          Fees: <span className="font-medium">CAD 150 (Application)</span>,{" "}
-          <span className="font-medium">CAD 85 (Biometrics)</span>
-        </p>
-      </div>
+<div>
+  <h4 className="font-semibold text-orange-600">3. Apply Online or via VAC</h4>
+  <p>
+    Submit via IRCC or VAC. <br />
+    Fees: <span className="font-medium">CAD 150 (Application)</span>,{" "}
+    <span className="font-medium">CAD 85 (Biometrics)</span>
+  </p>
+</div>
 
-      <div>
-        <h4 className="font-semibold text-orange-600">4. Biometrics & Medical</h4>
-        <p>Attend biometric appointment and medical if required.</p>
-      </div>
+<div>
+  <h4 className="font-semibold text-orange-600">4. Biometrics & Medical</h4>
+  <p>Attend biometric appointment and medical if required.</p>
+</div>
 
-      <div>
-        <h4 className="font-semibold text-orange-600">5. Visa Approval</h4>
-        <p>
-          Once approved, receive: <br />
-          • Port of Entry Letter <br />
-          • TRV (if applicable)
-        </p>
-      </div>
+<div>
+  <h4 className="font-semibold text-orange-600">5. Visa Approval</h4>
+  <p>
+    Once approved, receive: <br />
+    • Port of Entry Letter <br />
+    • TRV (if applicable)
+  </p>
+</div>
+
 
       
 
@@ -76,47 +78,48 @@ export const countries = [
   description: (
     <div className="text-gray-800 text-sm md:text-base leading-relaxed break-words max-w-full space-y-2">
       <p>
-        <span className="font-semibold">Australia</span> is a leading destination for international students offering quality education, diverse culture, and strong post-study work options.
-      </p>
-      <p>
-        To study here, you need a <span className="font-semibold">Subclass 500 Student Visa</span>.
-      </p>
+  <span className="font-semibold">Australia</span> is a leading destination for international students offering quality education, diverse culture, and strong post-study work options. For expert guidance on studying in Australia, visit{" "}
+  <a href="https://www.vjcoverseas.com" className="text-orange-500 font-semibold">VJC Overseas</a>.
+</p>
+<p>
+  To study here, you need a <span className="font-semibold">Subclass 500 Student Visa</span>.
+</p>
 
-      <h3 className="text-base md:text-lg font-bold text-blue-700"> Visa Process Overview</h3>
+<h3 className="text-base md:text-lg font-bold text-blue-700"> Visa Process Overview</h3>
 
-      <div>
-        <span className="font-semibold text-blue-600">1. Choose Course & Institution:</span>{" "}
-        Pick a CRICOS-registered course and get your CoE.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">1. Choose Course & Institution:</span>{" "}
+  Pick a CRICOS-registered course and get your CoE.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">2. Documents Required:</span>{" "}
-        Academic transcripts, IELTS/PTE/TOEFL, SOP, passport, financials.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">2. Documents Required:</span>{" "}
+  Academic transcripts, IELTS/PTE/TOEFL, SOP, passport, financials.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">3. Create ImmiAccount:</span>{" "}
-        Register on the immigration portal to apply online.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">3. Create ImmiAccount:</span>{" "}
+  Register on the immigration portal to apply online.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">4. Submit Application:</span>{" "}
-        Upload documents, pay AUD 710, attach CoE & OSHC.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">4. Submit Application:</span>{" "}
+  Upload documents, pay AUD 710, attach CoE & OSHC.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">5. Biometrics & Medical:</span>{" "}
-        Complete your biometric & medical exam via a panel physician.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">5. Biometrics & Medical:</span>{" "}
+  Complete your biometric & medical exam via a panel physician.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">6. Visa Outcome:</span>{" "}
-        Typically processed in 4–8 weeks. You’ll receive a visa grant letter via email.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">6. Visa Outcome:</span>{" "}
+  Typically processed in 4–8 weeks. You’ll receive a visa grant letter via email.
+</div>
 
-      <div className="bg-blue-100 p-3 rounded-md">
-        🎓 <span className="font-semibold">Bonus:</span> Apply for Temporary Graduate Visa post studies for job opportunities.
-      </div>
+<div className="bg-blue-100 p-3 rounded-md">
+  🎓 <span className="font-semibold">Bonus:</span> Apply for Temporary Graduate Visa post studies for job opportunities.
+</div>
 
       <div className="pt-2">
         <Link
@@ -137,48 +140,50 @@ export const countries = [
   link: "/study-abraod/usa",
   description: (
     <div className="text-gray-800 text-sm md:text-base leading-relaxed break-words max-w-full space-y-2">
-      <p>
-        <span className="font-semibold">USA</span> is a global leader in education, innovation, and job opportunities, attracting students from all over the world.
-      </p>
-      <p>
-        To study in the U.S., you’ll need to apply for an <span className="font-semibold">F-1 Student Visa</span>.
-      </p>
+     <p>
+  <span className="font-semibold">USA</span> is a global leader in education, innovation, and job opportunities, attracting students from all over the world. For expert guidance on studying in the USA, visit{" "}
+  <a href="https://www.vjcoverseas.com" className="text-orange-500 font-semibold">VJC Overseas</a>.
+</p>
+<p>
+  To study in the U.S., you’ll need to apply for an <span className="font-semibold">F-1 Student Visa</span>.
+</p>
 
-      <h3 className="text-base md:text-lg font-bold text-red-700">USA Study Visa Process</h3>
+<h3 className="text-base md:text-lg font-bold text-red-700">USA Study Visa Process</h3>
 
-      <div>
-        <span className="font-semibold text-red-600">1. Apply & Get Accepted:</span>{" "}
-        Choose a SEVP-approved school. Once accepted, receive your Form I-20.
-      </div>
+<div>
+  <span className="font-semibold text-red-600">1. Apply & Get Accepted:</span>{" "}
+  Choose a SEVP-approved school. Once accepted, receive your Form I-20.
+</div>
 
-      <div>
-        <span className="font-semibold text-red-600">2. Pay SEVIS Fee:</span>{" "}
-        Pay the I-901 SEVIS fee ($350) at least 3 days before applying for the visa.
-      </div>
+<div>
+  <span className="font-semibold text-red-600">2. Pay SEVIS Fee:</span>{" "}
+  Pay the I-901 SEVIS fee ($350) at least 3 days before applying for the visa.
+</div>
 
-      <div>
-        <span className="font-semibold text-red-600">3. Complete DS-160:</span>{" "}
-        Fill the DS-160 online visa application and upload a photo as per U.S. specs.
-      </div>
+<div>
+  <span className="font-semibold text-red-600">3. Complete DS-160:</span>{" "}
+  Fill the DS-160 online visa application and upload a photo as per U.S. specs.
+</div>
 
-      <div>
-        <span className="font-semibold text-red-600">4. Schedule Visa Interview:</span>{" "}
-        Book your slot at the nearest U.S. Embassy or Consulate and pay ~$185 visa fee.
-      </div>
+<div>
+  <span className="font-semibold text-red-600">4. Schedule Visa Interview:</span>{" "}
+  Book your slot at the nearest U.S. Embassy or Consulate and pay ~$185 visa fee.
+</div>
 
-      <div>
-        <span className="font-semibold text-red-600">5. Attend Interview:</span>{" "}
-        Bring Form I-20, DS-160 confirmation, SEVIS receipt, financial and academic docs, and your passport. Be confident and honest.
-      </div>
+<div>
+  <span className="font-semibold text-red-600">5. Attend Interview:</span>{" "}
+  Bring Form I-20, DS-160 confirmation, SEVIS receipt, financial and academic docs, and your passport. Be confident and honest.
+</div>
 
-      <div>
-        <span className="font-semibold text-red-600">6. Visa Approval:</span>{" "}
-        Once approved, your F-1 Visa will be stamped. Entry is allowed up to 30 days before classes start.
-      </div>
+<div>
+  <span className="font-semibold text-red-600">6. Visa Approval:</span>{" "}
+  Once approved, your F-1 Visa will be stamped. Entry is allowed up to 30 days before classes start.
+</div>
 
-      <div className="bg-red-100 p-3 rounded-md">
-        🎓 <span className="font-semibold">Note:</span> Strong academic and financial backing improves your visa approval chances.
-      </div>
+<div className="bg-red-100 p-3 rounded-md">
+  🎓 <span className="font-semibold">Note:</span> Strong academic and financial backing improves your visa approval chances.
+</div>
+
 
       <div className="pt-2">
         <Link
@@ -199,49 +204,50 @@ export const countries = [
   link: "/study-abroad/germany",
   description: (
     <div className="text-gray-800 text-sm md:text-base leading-relaxed break-words max-w-full space-y-3">
-      <p>
-        <span className="font-semibold">Germany</span> offers world-class education with low or no tuition fees in many public universities, combined with a strong economy and rich culture.
-      </p>
+     <p>
+  <span className="font-semibold">Germany</span> offers world-class education with low or no tuition fees in many public universities, combined with a strong economy and rich culture. For expert support with the Germany study visa process, visit{" "}
+  <a href="https://www.vjcoverseas.com" className="text-orange-500 font-semibold">VJC Overseas</a>.
+</p>
 
-      <p>
-        For studies longer than 90 days, you need a <span className="font-semibold">German National (D-Type) Student Visa</span>.
-      </p>
+<p>
+  For studies longer than 90 days, you need a <span className="font-semibold">German National (D-Type) Student Visa</span>.
+</p>
 
-      <h3 className="text-base md:text-lg font-bold text-yellow-600 mt-2">Germany Study Visa Process</h3>
+<h3 className="text-base md:text-lg font-bold text-yellow-600 mt-2">Germany Study Visa Process</h3>
 
-      <div>
-        <span className="font-semibold text-yellow-600">1. Secure Admission:</span>{" "}
-        Apply and get your Letter of Admission or Conditional Offer.
-      </div>
+<div>
+  <span className="font-semibold text-yellow-600">1. Secure Admission:</span>
+  Apply and get your Letter of Admission or Conditional Offer.
+</div>
 
-      <div>
-        <span className="font-semibold text-yellow-600">2. Open a Blocked Account:</span>{" "}
-        Proof of financial means (€11,208/year) via a Blocked Account is mandatory.
-      </div>
+<div>
+  <span className="font-semibold text-yellow-600">2. Open a Blocked Account:</span> Proof of financial means (€11,208/year) via a Blocked Account is mandatory.
+</div>
 
-      <div>
-        <span className="font-semibold text-yellow-600">3. Health Insurance:</span>{" "}
-        Purchase valid German health insurance (public or private).
-      </div>
 
-      <div>
-        <span className="font-semibold text-yellow-600">4. Prepare Documents:</span>{" "}
-        Gather passport, admission letter, proof of funds, transcripts, motivation letter, and insurance proof.
-      </div>
+<div>
+  <span className="font-semibold text-yellow-600">3. Health Insurance:</span>
+  Purchase valid German health insurance (public or private).
+</div>
 
-      <div>
-        <span className="font-semibold text-yellow-600">5. Schedule Visa Appointment:</span>{" "}
-        Book interview at the German embassy/consulate and pay ~€75 visa fee.
-      </div>
+<div>
+  <span className="font-semibold text-yellow-600">4. Prepare Documents:</span>
+  Gather passport, admission letter, proof of funds, transcripts, motivation letter, and insurance proof.
+</div>
 
-      <div>
-        <span className="font-semibold text-yellow-600">6. Attend Interview:</span>{" "}
-        Be confident; processing takes 4–12 weeks.
-      </div>
+<div>
+  <span className="font-semibold text-yellow-600">5. Schedule Visa Appointment:</span> Book interview at the German embassy/consulate and pay ~€75 visa fee.
+</div>
 
-      <div className="bg-yellow-100 p-3 rounded-md">
-        🎓 <span className="font-semibold">Tip:</span> Early preparation and complete documentation speed up approval.
-      </div>
+
+<div>
+  <span className="font-semibold text-yellow-600">6. Attend Interview:</span>
+  Be confident; processing takes 4–12 weeks.
+</div>
+
+<div className="bg-yellow-100 p-3 rounded-md">
+  🎓 <span className="font-semibold">Tip:</span> Early preparation and complete documentation speed up approval.
+</div>
 
       <div className="pt-2">
         <Link
@@ -262,43 +268,45 @@ export const countries = [
   description: (
     <div className="text-gray-800 text-sm md:text-base leading-relaxed break-words max-w-full space-y-3">
       <p>
-        The <span className="font-semibold">UK</span> is a top choice for students with world-class universities and a vibrant multicultural environment.
-      </p>
+  The <span className="font-semibold">UK</span> is a top choice for students with world-class universities and a vibrant multicultural environment. For expert UK study visa guidance, visit{" "}
+  <a href="https://www.vjcoverseas.com" className="text-orange-500 font-semibold">VJC Overseas</a>.
+</p>
 
-      <p>
-        To study here, you need a <span className="font-semibold">Student Visa</span> (formerly Tier 4).
-      </p>
+<p>
+  To study here, you need a <span className="font-semibold">Student Visa</span> (formerly Tier 4).
+</p>
 
-      <h3 className="text-base md:text-lg font-bold text-blue-700 mt-2">🇬🇧 UK Study Visa Process</h3>
+<h3 className="text-base md:text-lg font-bold text-blue-700 mt-2">🇬🇧 UK Study Visa Process</h3>
 
-      <div>
-        <span className="font-semibold text-blue-600">1. Get Offer & CAS:</span>{" "}
-        Receive an unconditional offer and CAS from your UK institution.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">1. Get Offer & CAS:</span>{" "}
+  Receive an unconditional offer and CAS from your UK institution.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">2. Check Eligibility & Funds:</span>{" "}
-        Meet English language requirements and show sufficient funds.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">2. Check Eligibility & Funds:</span>{" "}
+  Meet English language requirements and show sufficient funds.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">3. Apply Online:</span>{" "}
-        Fill the UK Student Visa application, pay visa fee (~£490) and IHS.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">3. Apply Online:</span>{" "}
+  Fill the UK Student Visa application, pay visa fee (~£490) and IHS.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">4. Biometrics & Interview:</span>{" "}
-        Book appointment at VFS, submit biometrics and documents; some may attend interviews.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">4. Biometrics & Interview:</span>{" "}
+  Book appointment at VFS, submit biometrics and documents; some may attend interviews.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">5. Visa Decision:</span>{" "}
-        Processing takes 3–6 weeks; travel allowed 1 month before course start.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">5. Visa Decision:</span>{" "}
+  Processing takes 3–6 weeks; travel allowed 1 month before course start.
+</div>
 
-      <div className="bg-blue-100 p-3 rounded-md">
-        🎓 <span className="font-semibold">Bonus:</span> Work part-time during studies & get a 2-year Graduate Route post-study work visa.
-      </div>
+<div className="bg-blue-100 p-3 rounded-md">
+  🎓 <span className="font-semibold">Bonus:</span> Work part-time during studies & get a 2-year Graduate Route post-study work visa.
+</div>
+
 
       <div className="pt-2">
         <Link
@@ -319,48 +327,49 @@ export const countries = [
   description: (
     <div className="text-gray-800 text-sm md:text-base leading-relaxed break-words max-w-full space-y-2">
       <p>
-        <span className="font-semibold">France</span> is famed for art, cuisine, and rich culture. It offers affordable tuition and prestigious universities.
-      </p>
+  <span className="font-semibold">France</span> is famed for art, cuisine, and rich culture. It offers affordable tuition and prestigious universities. For expert France study visa assistance, visit{" "}
+  <a href="https://www.vjcoverseas.com" className="text-orange-500 font-semibold">VJC Overseas</a>.
+</p>
 
-      <p>
-        To study here over 90 days, you’ll need a <span className="font-semibold">Long-Stay Student Visa (VLS-TS)</span>.
-      </p>
+<p>
+  To study here over 90 days, you’ll need a <span className="font-semibold">Long-Stay Student Visa (VLS-TS)</span>.
+</p>
 
-      <h3 className="text-base md:text-lg font-bold text-blue-700 mt-2"> France Study Visa Process</h3>
+<h3 className="text-base md:text-lg font-bold text-blue-700 mt-2"> France Study Visa Process</h3>
 
-      <div>
-        <span className="font-semibold text-blue-600">1. Secure Admission:</span>{" "}
-        Get your official admission letter from a French university or institution.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">1. Secure Admission:</span>{" "}
+  Get your official admission letter from a French university or institution.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">2. Register on Campus France:</span>{" "}
-        Create an account on Campus France portal, complete your application, and attend an interview (if required).
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">2. Register on Campus France:</span>{" "}
+  Create an account on Campus France portal, complete your application, and attend an interview (if required).
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">3. Prepare Documents:</span>{" "}
-        Passport, admission letter, Campus France approval, accommodation proof, finances (€615/month), insurance, transcripts.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">3. Prepare Documents:</span>{" "}
+  Passport, admission letter, Campus France approval, accommodation proof, finances (€615/month), insurance, transcripts.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">4. Apply for Visa:</span>{" "}
-        Submit via France-Visas, schedule biometric appointment at VFS/French consulate.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">4. Apply for Visa:</span>{" "}
+  Submit via France-Visas, schedule biometric appointment at VFS/French consulate.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">5. Visa Decision:</span>{" "}
-        After approval, receive your VLS-TS visa that also acts as residence permit after validation.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">5. Visa Decision:</span>{" "}
+  After approval, receive your VLS-TS visa that also acts as residence permit after validation.
+</div>
 
-      <div>
-        <span className="font-semibold text-blue-600">6. Post-Arrival Formalities:</span>{" "}
-        Validate your visa online within 3 months of arrival and register with local authorities.
-      </div>
+<div>
+  <span className="font-semibold text-blue-600">6. Post-Arrival Formalities:</span>{" "}
+  Validate your visa online within 3 months of arrival and register with local authorities.
+</div>
 
-      <div className="bg-blue-100 p-3 rounded-md">
-        🎓 <span className="font-semibold">Bonus:</span> France combines academic excellence with a vibrant lifestyle.
-      </div>
+<div className="bg-blue-100 p-3 rounded-md">
+  🎓 <span className="font-semibold">Bonus:</span> France combines academic excellence with a vibrant lifestyle.
+</div>
 
       <div className="pt-2">
         <Link
@@ -382,21 +391,23 @@ export const countries = [
   description: (
     <div className="text-gray-900 text-sm md:text-base leading-relaxed space-y-2 break-words">
       <p>
-        Italy blends centuries of cultural heritage with world-class education. With top universities like the University of Bologna, Sapienza Rome, and Politecnico di Milano, it offers globally recognized degrees in design, business, engineering, medicine, and humanities.
-      </p>
+  Italy blends centuries of cultural heritage with world-class education. With top universities like the University of Bologna, Sapienza Rome, and Politecnico di Milano, it offers globally recognized degrees in design, business, engineering, medicine, and humanities. For expert support in applying to Italian universities, visit{" "}
+  <a href="https://www.vjcoverseas.com" className="text-orange-500 font-semibold">VJC Overseas</a>.
+</p>
 
-      <h3 className="text-base md:text-lg font-semibold text-green-700">🎓 Why Study in Italy?</h3>
-      <ul className="list-disc list-inside space-y-1">
-        <li>Affordable tuition and cost of living.</li>
-        <li>Programs in English at top-ranked universities.</li>
-        <li>Vibrant student life in historic cities.</li>
-        <li>Scholarship options for international students.</li>
-        <li>Easy access to travel across Europe.</li>
-      </ul>
+<h3 className="text-base md:text-lg font-semibold text-green-700">🎓 Why Study in Italy?</h3>
+<ul className="list-disc list-inside space-y-1">
+  <li>Affordable tuition and cost of living.</li>
+  <li>Programs in English at top-ranked universities.</li>
+  <li>Vibrant student life in historic cities.</li>
+  <li>Scholarship options for international students.</li>
+  <li>Easy access to travel across Europe.</li>
+</ul>
 
-      <div className="bg-green-100 p-3 rounded-md">
-      Study in Italy to experience academic excellence alongside unforgettable food, fashion, and history.
-      </div>
+<div className="bg-green-100 p-3 rounded-md">
+  Study in Italy to experience academic excellence alongside unforgettable food, fashion, and history.
+</div>
+
 
       <div className="pt-2">
         <Link
@@ -417,8 +428,8 @@ export const countries = [
   link: "/spain",
    description: (
     <div className="text-gray-900 text-sm md:text-base leading-relaxed space-y-3">
-      <p>
-        Spain is a top destination for international students, offering world-class universities like the University of Barcelona and IE Business School. With affordable tuition, English-taught programs, and a lively culture, it’s the perfect blend of education and lifestyle.
+     <p>
+        Spain is a top destination for international students, offering world-class universities like the University of Barcelona and IE Business School. With affordable tuition, English-taught programs, and a lively culture, it’s the perfect blend of education and lifestyle. Connect with <a href="https://www.vjcoverseas.com" class="text-orange-500">VJC Overseas</a> for expert guidance.
       </p>
 
       <h3 className="text-base md:text-lg font-semibold text-red-700">🎓 Why Study in Spain?</h3>
@@ -433,6 +444,7 @@ export const countries = [
       <div className="bg-yellow-100 p-3 rounded-md">
         🇪🇸 Studying in Spain offers more than a degree — it's a cultural, academic, and personal adventure.
       </div>
+
 
       <div className="pt-2">
         <Link
@@ -453,7 +465,7 @@ export const countries = [
   description: (
     <div className="text-gray-900 text-sm md:text-base leading-relaxed max-w-full space-y-2 break-words">
       <p>
-        The Netherlands offers world-class, innovation-driven education with over 2,000 English-taught programs at globally recognized universities like TU Delft, University of Amsterdam, and Erasmus University.
+        The Netherlands offers world-class, innovation-driven education with over 2,000 English-taught programs at globally recognized universities like TU Delft, University of Amsterdam, and Erasmus University. For expert guidance on studying abroad, connect with <a href="https://www.vjcoverseas.com" class="text-orange-500">VJC Overseas</a>.
       </p>
 
       <h3 className="text-base md:text-lg font-semibold text-blue-700 mt-2">🎓 Why Study in the Netherlands?</h3>
@@ -471,6 +483,7 @@ export const countries = [
       <div className="bg-blue-100 p-3 rounded-md">
         🇳🇱 Experience Europe from the center—live, learn, and thrive in a globally connected environment.
       </div>
+
 
       <div className="pt-2">
         <Link
@@ -495,7 +508,7 @@ export const countries = [
       </p>
 
       <p>
-        To study in Dubai, you need a <span className="font-semibold">UAE Student Residence Visa</span>, sponsored by your university or a UAE-based guardian.
+        To study in Dubai, you need a <span className="font-semibold">UAE Student Residence Visa</span>, sponsored by your university or a UAE-based guardian. For trusted assistance, connect with <a href="https://www.vjcoverseas.com" class="text-orange-500">VJC Overseas</a>.
       </p>
 
       <h3 className="text-base md:text-lg font-bold text-green-700 mt-2"> Dubai Study Visa Process</h3>
@@ -534,6 +547,7 @@ export const countries = [
         🎓 <span className="font-semibold">Bonus:</span> Dubai offers quality education with a safe, cosmopolitan lifestyle.
       </div>
 
+
       <div className="pt-2">
         <Link
           href="/study-abroad/uae"
@@ -552,9 +566,9 @@ export const countries = [
   link: "/switzerland",
   description: (
     <div className="text-gray-900 text-sm md:text-base leading-relaxed max-w-full space-y-2 break-words">
-      <p>
+     <p>
         Switzerland is famed for its Alps, chocolates, and top-tier financial services.
-        It offers world-class education and an exceptional quality of life.
+        It offers world-class education and an exceptional quality of life. For expert guidance, you can connect with <a href="https://www.vjcoverseas.com" class="text-orange-500">VJC Overseas</a>.
       </p>
 
       <h3 className="text-base md:text-lg font-bold text-red-600 mt-2"> Switzerland Study Visa Process</h3>
@@ -588,6 +602,7 @@ export const countries = [
         🎓 Start your journey toward Swiss excellence in education today!
       </div>
 
+
       <div className="pt-2">
         <Link
           href="/study-abraod/switzerland"
@@ -608,7 +623,7 @@ export const countries = [
     <div className="text-gray-900 text-sm md:text-base leading-relaxed max-w-full space-y-2 break-words">
       <p>
         Sweden is renowned for its cutting-edge design, technology, and sustainability, 
-        hosting globally ranked universities in a welcoming environment.
+        hosting globally ranked universities in a welcoming environment. For expert guidance on studying in Sweden, connect with <a href="https://www.vjcoverseas.com" class="text-orange-500">VJC Overseas</a>.
       </p>
 
       <h3 className="text-base md:text-lg font-bold text-blue-600 mt-2"> Sweden Study Visa Process</h3>
@@ -642,6 +657,7 @@ export const countries = [
         🎓 Study in Sweden for academic excellence, modern learning, and great post-study opportunities!
       </div>
 
+
       <div className="pt-2">
         <Link
           href="/study-abroad/sweden"
@@ -660,8 +676,9 @@ export const countries = [
   link: "/studyinsouthafrica",
   description: (
     <div className="text-gray-900 text-sm md:text-base leading-relaxed max-w-full space-y-2 break-words">
+      <div className="text-gray-900 text-sm md:text-base leading-relaxed max-w-full space-y-2 break-words">
       <p>
-        South Africa offers quality education, affordable tuition, and a culturally immersive experience. Universities like UCT, Wits, and Stellenbosch provide top programs in English.
+        South Africa offers quality education, affordable tuition, and a culturally immersive experience. Universities like UCT, Wits, and Stellenbosch provide top programs in English. For expert guidance on studying in South Africa, connect with <a href="https://www.vjcoverseas.com" class="text-orange-500">VJC Overseas</a>.
       </p>
 
       <h3 className="text-base md:text-lg font-bold text-green-700 mt-2">🎓 Why Study in South Africa?</h3>
@@ -679,6 +696,8 @@ export const countries = [
       <div className="bg-yellow-100 p-3 rounded-md">
         🦁 Explore a dynamic mix of academics, culture, and adventure—from Cape Town's beaches to Kruger’s wildlife!
       </div>
+</div>
+
 
       <div className="pt-2">
         <Link
@@ -699,7 +718,7 @@ export const countries = [
   description: (
     <div className="text-gray-900 text-sm md:text-base leading-relaxed max-w-full space-y-2 break-words">
       <p>
-        Singapore is a global education hub, known for world-class universities, a strong economy, and a safe, multicultural environment.
+        Singapore is a global education hub, known for world-class universities, a strong economy, and a safe, multicultural environment. For proper study guidance, you can rely on <a href="https://www.vjcoverseas.com" class="text-orange-500">VJC Overseas</a>.
       </p>
 
       <h3 className="text-base md:text-lg font-bold text-red-600 mt-2">Singapore Study Visa Process</h3>
@@ -733,6 +752,7 @@ export const countries = [
         🎓 Singapore combines academic rigor with innovation — ideal for ambitious students!
       </div>
 
+
       <div className="pt-2">
         <Link
           href="/study-abroad/singapore"
@@ -752,7 +772,7 @@ export const countries = [
   description: (
     <div className="text-gray-900 text-sm md:text-base leading-relaxed max-w-full space-y-2 break-words">
       <p>
-        New Zealand is famous for its beautiful nature, lakes, and high education standards, making it a top choice for international students.
+        New Zealand is famous for its beautiful nature, lakes, and high education standards, making it a top choice for international students. For expert guidance, you can trust <a href="https://www.vjcoverseas.com" class="text-orange-500">VJC Overseas</a>.
       </p>
 
       <h3 className="text-base md:text-lg font-bold text-blue-600 mt-2"> New Zealand Study Visa Process</h3>
